@@ -23,8 +23,4 @@ const TodoItem = ({ id, isDone, content, date, onUpdate, onDelete }) => {
     </div>
   );
 };
-export default memo(TodoItem, (preProps, nextProps) => {
-  prevProps.id !== nextProps.id;
-  prevProps.isDone !== nextProps.isDone;
-  prevProps.id !== nextProps.id;
-});
+export default TodoItem;
